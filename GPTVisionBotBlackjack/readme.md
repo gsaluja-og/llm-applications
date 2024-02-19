@@ -1,5 +1,8 @@
 Using GPT4 vision API to play Blackjack online.
-Modify 'screenshot area' variables inside code before running on your own system!! See video for demo use.
+1. The bot takes a screenshot of the game on the screen. (Remember to redefine these variables in the code based on your screen!)
+2. It sends this picture to GPT vision API, which analyzes the image and returns the best next move.
+3. Using some Python code (PyAutoGUI), the bot executes that action on the screen.
+See video for demo use.
 
 
 
